@@ -1,0 +1,81 @@
+.cyan-color{
+    color: hsl(19, 100%, 50%);
+}
+.orange-color{
+    color: orange;
+}
+body{
+    font-family: 'Otomanopee One', sans-serif;
+font-family: 'Poppins', sans-serif;
+margin: 0%;
+}
+h1{
+    font-size: 50px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(245, 136, 11), white);
+    padding: 10px 30px;
+    color: rgb(15, 9, 9);
+    border-radius: 10%;
+    font-weight: 700;
+
+}
+.flexible-container{
+
+    display: flex;
+    margin-bottom: 100px;
+}
+.first-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+ 
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.hight-wight{
+    width: 50%;
+    margin: 2%;
+    
+}
+.hight-wight img{
+    width: 80%;
+
+}
+.experiance-item{
+    width: 40%;
+    margin-left: 10%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px rgb(43, 43, 36);   
+    border-radius: 10px;
+}
+.third-section{
+    margin-left: 0%;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+#actor{
+    border-left: 5px solid;
+    border-image: linear-gradient( rgb(192, 255, 200), rgb(255, 51, 0));
+    border-image-slice: 1;
+}
+#dancer{
+    border-left: 5px solid;
+    border-image: linear-gradient( rgb(197, 255, 192), rgb(255, 0, 76));
+    border-image-slice: 1;
+
+}
+
+#awards{
+    border-left: 5px solid;
+    border-image: linear-gradient( pink, blue);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
